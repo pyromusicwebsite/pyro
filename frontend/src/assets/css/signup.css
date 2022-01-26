@@ -1,0 +1,140 @@
+
+.frame {
+    height: 600px;
+    width: 420px;
+
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid 1px rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all .5s ease;
+	border: 1px solid #222227;
+}
+
+.frame-long {
+    height: 615px
+}
+
+.frame-short {
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1)
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    padding-top: 0px;
+    opacity: 1;
+    transition: all .5s ease
+}
+
+.nav-up {
+    transform: translateY(-100px);
+    opacity: 0
+}
+
+li {
+    padding-left: 10px;
+    font-size: 18px;
+    display: inline;
+    text-align: left;
+    text-transform: uppercase;
+    padding-right: 10px;
+    color: #ffffff
+}
+
+.signin-active a {
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: solid 2px #1059FF;
+    transition: all .25s ease;
+    cursor: pointer
+}
+
+.signin-inactive a {
+    padding-bottom: 0;
+    color: rgba(255, 255, 255, .3);
+    text-decoration: none;
+    border-bottom: none;
+    cursor: pointer
+}
+
+.signup-active a {
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: solid 1px #1059FF;
+    padding-bottom: 10px
+}
+
+.signup-inactive a {
+    cursor: pointer;
+    color: rgba(255, 255, 255, .3);
+    text-decoration: none;
+    transition: all .25s ease
+}
+
+.form-signin {
+    width: 430px;
+    
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 37px;
+    padding-right: 37px;
+	padding-top: 5px;
+ 
+    transition: opacity .5s ease, transform .5s ease
+}
+
+.form-signin-left {
+    transform: translateX(-400px);
+    opacity: .0
+}
+
+.form-signup {
+    width: 430px;
+    font-size: 12px;
+    font-weight: 300;
+    padding-left: 37px;
+    padding-right: 37px;
+   	position: relative;
+    top: -355px;
+    left: 400px;
+    opacity: 0;
+    transition: all .5s ease;
+	
+}
+
+.form-signup-left {
+    transform: translateX(-399px);
+    opacity: 1
+}
+
+.form-signup-down {
+    top: 0px;
+    opacity: 0
+}
+
+.form_custom_class{
+    width: 430px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 5px;
+}
+
+/* .form-signin { */
+    /* width: 430px; */
+    /* font-size: 16px;
+    font-weight: 300;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 5px; */
+    /* transition: opacity .5s ease, transform .5s ease; */
+/* } */
